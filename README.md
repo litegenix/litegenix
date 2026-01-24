@@ -1,75 +1,22 @@
-Hi, I’m Qadir Bux 👋
 
-I’m a Python Developer and Web Developer with a strong interest in cybersecurity. I build clean, secure, and scalable applications, and I enjoy working across the full lifecycle of a project, from requirements to deployment. I’m open to internships, freelance projects, and entry-level cybersecurity roles.
+	# 💫 About Me:
+Hi, I’m Qadir Bux 👋<br><br>I’m a Python Developer and Web Developer with a strong interest in cybersecurity. I build clean, secure, and scalable applications, and I enjoy working across the full lifecycle of a project, from requirements to deployment. I’m open to internships, freelance projects, and entry-level cybersecurity roles.<br><br>👨‍💻 What I Do<br>	•	Develop Python applications using clean code and industry best practices<br>	•	Build responsive, user-friendly web applications<br>	•	Design secure back-end systems and RESTful APIs<br>	•	Apply cybersecurity fundamentals to development and system design<br>	•	Work comfortably in Linux environments and collaborative Git workflows<br><br>🛠 Technical Skills<br><br>Programming: Python, SQL, JavaScript, HTML, CSS<br>Web Development: Front-end development, responsive design, REST APIs, UI/UX implementation<br>Cybersecurity: Network security, vulnerability assessment, threat analysis, secure coding<br>Systems & Tools: Linux, command line, system administration, hardware diagnostics<br>Technologies: Git, databases, cloud fundamentals, automation scripts<br>Productivity: Microsoft Office (advanced Word, Excel, PowerPoint, Outlook)<br><br>🔐 Security-First Mindset<br><br>Alongside development, I follow a security-focused approach. I understand common attack vectors, basic SOC workflows, and how secure coding and system hardening reduce risk. This allows me to deliver solutions that are not only functional but also resilient.<br><br>🎓 Education<br>	•	Bachelor’s Degree (2024–2028)<br>Shaheed Benazir Bhutto University of Veterinary and Animal Sciences<br>	•	HSC (Pre-Medical, 88%) – BISE Sukkur<br>	•	SSC (Science, 94%) – BISE Sukkur<br><br>📜 Certifications<br>	•	Python Web Development Certification – PITP QUEST<br>	•	Google Cybersecurity Professional Certificate<br>	•	Google Prompting Essentials<br><br>🎯 Career Focus<br>	•	Internships: Software development or cybersecurity roles with real-world exposure<br>	•	Freelance: Web and Python-based solutions with secure and scalable design<br>	•	Cybersecurity: SOC analyst, security engineer, or security-focused developer roles<br><br>⸻<br><br>🚀 Projects (Placeholders)<br><br>These repositories represent the type of work I build and continuously improve.<br><br>🔹 Python & Web Development<br>	•	python-web-app-starter<br>Full-stack Python web application with authentication, database integration, and REST APIs.<br>	•	responsive-portfolio-site<br>Mobile-first personal or business website using HTML, CSS, and JavaScript.<br>	•	task-manager-python<br>CRUD-based task management system demonstrating clean architecture and database usage.<br><br>🔹 Cybersecurity & Automation<br>	•	linux-security-tools<br>Collection of Linux and Python scripts for security checks, log analysis, and automation.<br>	•	vulnerability-scanner-lite<br>Basic vulnerability assessment tool using Python for educational and practice purposes.<br>	•	network-monitoring-basics<br>Scripts and documentation for traffic inspection and network security fundamentals.<br><br>🔹 Systems & Hardware<br>	•	system-diagnostics-toolkit<br>Python utilities for hardware diagnostics, performance monitoring, and troubleshooting.<br>	•	pc-maintenance-guides<br>Documentation and scripts for system optimization and preventive maintenance.<br><br>⸻<br><br>📫 Let’s Connect<br><br>If you’re a recruiter, client, or security professional, I’m open to discussions and collaboration.<br>	•	Email: qadirshar66@gmail.com<br>	•	LinkedIn: linkedin.com/in/litegenix<br>
 
-👨‍💻 What I Do
-	•	Develop Python applications using clean code and industry best practices
-	•	Build responsive, user-friendly web applications
-	•	Design secure back-end systems and RESTful APIs
-	•	Apply cybersecurity fundamentals to development and system design
-	•	Work comfortably in Linux environments and collaborative Git workflows
 
-🛠 Technical Skills
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/litegenix) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:qadirshar66@gmail.com) 
 
-Programming: Python, SQL, JavaScript, HTML, CSS
-Web Development: Front-end development, responsive design, REST APIs, UI/UX implementation
-Cybersecurity: Network security, vulnerability assessment, threat analysis, secure coding
-Systems & Tools: Linux, command line, system administration, hardware diagnostics
-Technologies: Git, databases, cloud fundamentals, automation scripts
-Productivity: Microsoft Office (advanced Word, Excel, PowerPoint, Outlook)
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Fonts](https://img.shields.io/badge/Adobe%20Fonts-000B1D.svg?style=for-the-badge&logo=Adobe%20Fonts&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Affinity Photo](https://img.shields.io/badge/affinityphoto-%237E4DD2.svg?style=for-the-badge&logo=affinity-photo&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white) ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Meta](https://img.shields.io/badge/Meta-%230467DF.svg?style=for-the-badge&logo=Meta&logoColor=white) ![OpenAPI Specification](https://img.shields.io/badge/openapiinitiative-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=litegenix&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=litegenix&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=litegenix&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-🔐 Security-First Mindset
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=litegenix&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-Alongside development, I follow a security-focused approach. I understand common attack vectors, basic SOC workflows, and how secure coding and system hardening reduce risk. This allows me to deliver solutions that are not only functional but also resilient.
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-🎓 Education
-	•	Bachelor’s Degree (2024–2028)
-Shaheed Benazir Bhutto University of Veterinary and Animal Sciences
-	•	HSC (Pre-Medical, 88%) – BISE Sukkur
-	•	SSC (Science, 94%) – BISE Sukkur
-
-📜 Certifications
-	•	Python Web Development Certification – PITP QUEST
-	•	Google Cybersecurity Professional Certificate
-	•	Google Prompting Essentials
-
-🎯 Career Focus
-	•	Internships: Software development or cybersecurity roles with real-world exposure
-	•	Freelance: Web and Python-based solutions with secure and scalable design
-	•	Cybersecurity: SOC analyst, security engineer, or security-focused developer roles
-
-⸻
-
-🚀 Projects (Placeholders)
-
-These repositories represent the type of work I build and continuously improve.
-
-🔹 Python & Web Development
-	•	python-web-app-starter
-Full-stack Python web application with authentication, database integration, and REST APIs.
-	•	responsive-portfolio-site
-Mobile-first personal or business website using HTML, CSS, and JavaScript.
-	•	task-manager-python
-CRUD-based task management system demonstrating clean architecture and database usage.
-
-🔹 Cybersecurity & Automation
-	•	linux-security-tools
-Collection of Linux and Python scripts for security checks, log analysis, and automation.
-	•	vulnerability-scanner-lite
-Basic vulnerability assessment tool using Python for educational and practice purposes.
-	•	network-monitoring-basics
-Scripts and documentation for traffic inspection and network security fundamentals.
-
-🔹 Systems & Hardware
-	•	system-diagnostics-toolkit
-Python utilities for hardware diagnostics, performance monitoring, and troubleshooting.
-	•	pc-maintenance-guides
-Documentation and scripts for system optimization and preventive maintenance.
-
-⸻
-
-📫 Let’s Connect
-
-If you’re a recruiter, client, or security professional, I’m open to discussions and collaboration.
-	•	Email: qadirshar66@gmail.com
-	•	LinkedIn: linkedin.com/in/litegenix
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
