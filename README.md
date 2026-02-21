@@ -53,7 +53,7 @@ https://github.com/litegenix
 ### Portfolio Website
 Responsive personal portfolio  
 Tech: HTML, CSS, JavaScript  
-https://github.com/litegenix
+https://litegenix.online
 
 ---
 
