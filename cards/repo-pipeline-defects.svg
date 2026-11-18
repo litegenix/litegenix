@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="145" viewBox="0 0 1000 145" role="img"><style>
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes glow{0%,100%{opacity:.55}50%{opacity:1}}
+.card{animation:rise .8s ease-out both}
+.accent{animation:glow 3s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.card,.accent{animation:none!important}animate{display:none}}
+text{font-family:Poppins,Arial,sans-serif}
+</style><rect width="1000" height="145" rx="18" fill="#0a0a0a" stroke="#333" /><g class="card" style="animation-delay:1.4s">
+<rect x="1" y="1" width="998" height="143" rx="16" fill="#101010" stroke="#333"/>
+<rect x="24" y="25" width="5" height="94" rx="3" fill="#00eeff"/>
+<text x="52" y="55" fill="#fff" font-size="22" font-weight="700">Pipeline Surface Defect Detection</text>
+<text x="52" y="83" fill="#8b949e" font-size="15">Computer-vision based surface defect detection</text>
+<text x="52" y="111" fill="#00eeff" font-size="13">Python · Computer Vision</text>
+<text x="945" y="78" text-anchor="end" fill="#8b949e" font-size="13">VIEW REPO ↗</text>
+</g></svg>
