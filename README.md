@@ -1,10 +1,10 @@
 <div align="center">
-<a href="https://qadirbux.tech"><img src="./cards/hero.svg" width="100%" alt="Qadir Bux Shar — Python Developer, Web Developer and Cybersecurity Enthusiast" /></a><br>
-<img src="./cards/heatmap.svg" width="100%" alt="Qadir's GitHub contribution graph" /><br>
-<img src="./cards/activity.svg" width="100%" alt="GitHub activity over the last 12 months" /><br>
-<a href="https://www.qadirbux.tech/projects"><img src="./cards/build.svg" width="33.333%" alt="BUILD: projects and experiments" /></a><a href="https://www.qadirbux.tech/brands"><img src="./cards/brand.svg" width="33.333%" alt="BRAND: digital products" /></a><a href="https://www.qadirbux.tech/blog"><img src="./cards/learn.svg" width="33.333%" alt="LEARN: IT and cybersecurity" /></a><br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-coding-dark.svg" /><img src="./cards/title-coding-light.svg" width="100%" alt="What I'm building" /></picture><br>
-<a href="https://github.com/litegenix/WhatsX"><img src="./cards/repo-1.svg" width="33.333%" alt="WhatsX" /></a><a href="https://github.com/litegenix/Handwritten-Digit-Recognition"><img src="./cards/repo-2.svg" width="33.333%" alt="Handwritten Digit Recognition" /></a><a href="https://github.com/litegenix/Pipeline-Surface-Defect-Detection-System"><img src="./cards/repo-3.svg" width="33.333%" alt="Pipeline Defect Detection" /></a>
+<a href="https://qadirbux.tech"><img src="./cards/hero.svg?v=5" width="100%" alt="Qadir Bux Shar — Python Developer, Web Developer and Cybersecurity Enthusiast" /></a><br>
+<img src="./cards/heatmap.svg?v=5" width="100%" alt="Qadir's GitHub contribution graph" /><br>
+<img src="./cards/activity.svg?v=5" width="100%" alt="GitHub activity over the last 12 months" /><br>
+<a href="https://www.qadirbux.tech/projects"><img src="./cards/build.svg?v=5" width="33.333%" alt="BUILD: projects and experiments" /></a><a href="https://www.qadirbux.tech/brands"><img src="./cards/brand.svg?v=5" width="33.333%" alt="BRAND: digital products" /></a><a href="https://www.qadirbux.tech/blog"><img src="./cards/learn.svg?v=5" width="33.333%" alt="LEARN: IT and cybersecurity" /></a><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-coding-dark.svg?v=5" /><img src="./cards/title-coding-light.svg?v=5" width="100%" alt="What I'm building" /></picture><br>
+<a href="https://github.com/litegenix/WhatsX"><img src="./cards/repo-1.svg?v=5" width="33.333%" alt="WhatsX" /></a><a href="https://github.com/litegenix/Handwritten-Digit-Recognition"><img src="./cards/repo-2.svg?v=5" width="33.333%" alt="Handwritten Digit Recognition" /></a><a href="https://github.com/litegenix/Pipeline-Surface-Defect-Detection-System"><img src="./cards/repo-3.svg?v=5" width="33.333%" alt="Pipeline Defect Detection" /></a>
 </div>
 
 <p align="center">
