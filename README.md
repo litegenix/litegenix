@@ -56,3 +56,5 @@ Shaheed Benazir Bhutto University
 - Email: owner@qadirbux.tech
 
 ⭐ Open to collaboration, internships, and freelance projects.
+
+<!-- Profile cards are generated from live GitHub contribution data by the daily workflow. -->
