@@ -21,6 +21,7 @@ INK = "#F1F7FA"
 SOFT = "#C7D2DB"
 MUTED = "#8494A2"
 RULE = "#20323F"
+BLUE = ["#14212B", "#064A55", "#087C8B", "#00A9BA", "#00E5FF"]
 CYAN = "#00E5FF"
 TEAL = "#54D6C8"
 VIOLET = "#9AABFF"
@@ -65,6 +66,9 @@ def font_face(keys):
     return "".join(out)
 
 CSS = """
+.serif{font-family:'Instrument Serif',Georgia,serif}
+.sans{font-family:'Geist',system-ui,sans-serif}
+.mono{font-family:'Geist Mono',ui-monospace,monospace}
 @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
 @keyframes fade{from{opacity:0}to{opacity:1}}
 @keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
@@ -97,6 +101,8 @@ def svg(width, height, body, fonts, label, extra_css="", left=0, right=0, bottom
 
 def write(filename, content):
     CARDS.mkdir(parents=True, exist_ok=True)
+    import xml.etree.ElementTree as ET
+    ET.fromstring(content)
     (CARDS / filename).write_text(content, encoding="utf-8")
     print(f"wrote cards/{filename} ({len(content)//1024} KB)")
 
@@ -207,7 +213,7 @@ def activity(total,active,streak,busy_date,busy_count,monthly):
         color=CYAN if value==best else (TEAL if i==len(months)-1 else "#29404D")
         label=datetime.date.fromisoformat(month+"-01").strftime("%b")
         bars.append(f'<rect class="g" style="animation-delay:{2.1+i*.07:.2f}s" x="{x:.1f}" y="{base-height}" width="{bw:.1f}" height="{height}" rx="4" fill="{color}"><title>{label}: {value:,}</title></rect>'
-                    f'<text class="f" style="animation-delay:{2.1+i*.07:.2f}s" x="{x+bw/2:.1f}" y="{base+22}" text-anchor="middle" class="mono" font-size="11" fill="{MUTED}">{label}</text>')
+                    f'<text class="f mono" style="animation-delay:{2.1+i*.07:.2f}s" x="{x+bw/2:.1f}" y="{base+22}" text-anchor="middle" font-size="11" fill="{MUTED}">{label}</text>')
     busy=busy_date.isoformat() if busy_date else "—"
     metrics=[(f"{streak} day" if streak==1 else f"{streak} days","CURRENT STREAK"),
              (str(active),"ACTIVE DAYS"),(f"{busy} · {busy_count}","BUSIEST DAY"),(f"{total:,}","TOTAL CONTRIBUTIONS")]
