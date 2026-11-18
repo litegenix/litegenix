@@ -40,6 +40,12 @@ jobs:
                         contributionDays { date contributionCount }
                       }
                     }
+                    hasAnyRestrictedContributions
+                    restrictedContributionsCount
+                    totalCommitContributions
+                    totalIssueContributions
+                    totalPullRequestContributions
+                    totalPullRequestReviewContributions
                   }
                 }
               }`;
@@ -58,9 +64,24 @@ jobs:
               generated_at: to.toISOString(),
               profile: { name: user.name || "Qadir Bux", avatar_url: user.avatarUrl },
               total_contributions: calendar.totalContributions,
+              has_restricted_contributions: user.contributionsCollection.hasAnyRestrictedContributions,
+              restricted_contributions_count: user.contributionsCollection.restrictedContributionsCount,
+              total_commit_contributions: user.contributionsCollection.totalCommitContributions,
+              total_issue_contributions: user.contributionsCollection.totalIssueContributions,
+              total_pull_request_contributions: user.contributionsCollection.totalPullRequestContributions,
+              total_pull_request_review_contributions: user.contributionsCollection.totalPullRequestReviewContributions,
               weeks: calendar.weeks,
               days
             };
+            core.info("Contribution diagnostics: " + JSON.stringify({
+              total: payload.total_contributions,
+              hasRestricted: payload.has_restricted_contributions,
+              restrictedCount: payload.restricted_contributions_count,
+              commits: payload.total_commit_contributions,
+              issues: payload.total_issue_contributions,
+              pullRequests: payload.total_pull_request_contributions,
+              reviews: payload.total_pull_request_review_contributions
+            }));
             const fs = require("fs");
             fs.mkdirSync("data", { recursive: true });
             fs.writeFileSync("data/contributions.json", JSON.stringify(payload, null, 2) + "\n");
