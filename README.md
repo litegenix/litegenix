@@ -9,7 +9,10 @@
 </div>
 
 <p align="center">
-<a href="https://qadirbux.tech">qadirbux.tech</a> &nbsp;/&nbsp; <a href="https://linkedin.com/in/litegenix">linkedin</a> &nbsp;/&nbsp; <a href="https://github.com/litegenix">github</a> &nbsp;/&nbsp; <a href="mailto:owner@qadirbux.tech">email</a>
+<a href="https://qadirbux.tech" title="Portfolio"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/globe.svg" width="30" height="30" alt="Portfolio" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://linkedin.com/in/litegenix" title="LinkedIn"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="30" height="30" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/litegenix" title="GitHub"><img src="https://cdn.simpleicons.org/github/FFFFFF" width="30" height="30" alt="GitHub" /></a>&nbsp;&nbsp;&nbsp;
+<a href="mailto:owner@qadirbux.tech" title="Email"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/envelope-fill.svg" width="30" height="30" alt="Email" /></a>
 </p>
 
 <!-- The workflow refreshes contribution data and generated cards automatically. -->
