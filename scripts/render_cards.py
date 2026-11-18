@@ -189,8 +189,8 @@ def main():
         color = ACCENT if index == 0 else ("#54D6C8" if index == 1 else "#9AABFF")
         body = (f'<rect x="1" y="1" width="291" height="150" rx="17" fill="{PANEL}" stroke="{color}" stroke-opacity=".45"/>'
                 f'<text x="22" y="35" fill="{color}" font-size="11" letter-spacing="2">{number} / QADIR BUX</text>'
-                f'<text x="22" y="88" fill="{WHITE}" font-size="36">{title}</text>'
-                f'<text x="22" y="117" fill="{MUTED}" font-size="12">{subtitle}</text>'
+                f'<text x="22" y="88" fill="{WHITE}" font-size="36">{esc(title)}</text>'
+                f'<text x="22" y="117" fill="{MUTED}" font-size="12">{esc(subtitle)}</text>'
                 f'<path d="M248 112l18 0m-7 -7l7 7 -7 7" stroke="{color}" stroke-width="2" fill="none"/>')
         nav_svg = svg(293, 153, body, .65 + index * .12)
         save(filename, nav_svg)
