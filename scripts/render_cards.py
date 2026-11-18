@@ -192,7 +192,9 @@ def main():
                 f'<text x="22" y="88" fill="{WHITE}" font-size="36">{title}</text>'
                 f'<text x="22" y="117" fill="{MUTED}" font-size="12">{subtitle}</text>'
                 f'<path d="M248 112l18 0m-7 -7l7 7 -7 7" stroke="{color}" stroke-width="2" fill="none"/>')
-        save(filename, svg(293, 153, body, .65 + index * .12))
+        nav_svg = svg(293, 153, body, .65 + index * .12)
+        save(filename, nav_svg)
+        save_png(filename.replace(".svg", ".png"), nav_svg, width=586)
 
     # Section divider and three project cards.
     title_svg = svg(1000, 82,
