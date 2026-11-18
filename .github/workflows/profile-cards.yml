@@ -30,7 +30,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const query = \`
+            const query = `
               query($login: String!, $from: DateTime!, $to: DateTime!) {
                 user(login: $login) {
                   name
@@ -44,7 +44,7 @@ jobs:
                     }
                   }
                 }
-              }\`;
+              }`;
             const to = new Date();
             const from = new Date(to.getTime() - 365 * 24 * 60 * 60 * 1000);
             const iso = d => d.toISOString();
