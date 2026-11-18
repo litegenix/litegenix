@@ -164,21 +164,21 @@ def main():
     for index, (month, value) in enumerate(recent):
         x = 42 + index * 77
         bar_height = 76 * value / max_month if max_month else 0
-        bars += (f'<rect x="{x}" y="{180-bar_height:.1f}" width="42" height="{bar_height:.1f}" rx="5" '
+        bars += (f'<rect x="{x}" y="{270-bar_height:.1f}" width="42" height="{bar_height:.1f}" rx="5" '
                  f'fill="{ACCENT}" opacity=".85"><title>{month}: {value}</title></rect>'
-                 f'<text x="{x+21}" y="201" fill="{MUTED}" text-anchor="middle" font-size="10">{month[5:]}</text>')
+                 f'<text x="{x+21}" y="291" fill="{MUTED}" text-anchor="middle" font-size="10">{month[5:]}</text>')
     busy = busiest_date.isoformat() if busiest_date else "—"
     activity = (f'<text x="35" y="39" fill="{WHITE}" font-size="26">The last 12 months</text>'
                 f'<text x="35" y="62" fill="{MUTED}" font-size="12">A snapshot of my GitHub activity</text>')
     metrics = [("TOTAL CONTRIBUTIONS", f"{total:,}"), ("ACTIVE DAYS", str(active)),
-               ("CURRENT STREAK", f"{streak} days"), ("BUSIEST DAY", busy)]
+               ("CURRENT STREAK", f"{streak} day" if streak == 1 else f"{streak} days"), ("BUSIEST DAY", busy)]
     for i, (label, value) in enumerate(metrics):
         x = 35 + i * 240
         activity += (f'<rect x="{x}" y="82" width="220" height="66" rx="12" fill="{PANEL}" stroke="#20323F"/>'
                      f'<text x="{x+14}" y="106" fill="{MUTED}" font-size="10" letter-spacing="1">{label}</text>'
                      f'<text x="{x+14}" y="133" fill="{ACCENT}" font-size="25">{esc(value)}</text>')
-    activity += f'<text x="35" y="174" fill="{MUTED}" font-size="11" letter-spacing="1">MONTHLY CONTRIBUTIONS</text>{bars}'
-    save("activity.svg", svg(1000, 220, activity, .45))
+    activity += f'<text x="35" y="184" fill="{MUTED}" font-size="11" letter-spacing="1">MONTHLY CONTRIBUTIONS</text>{bars}'
+    save("activity.svg", svg(1000, 310, activity, .45))
 
     # Three navigation cards, matching the reference layout but in the user's dark/cyan identity.
     nav = [("build.svg", "BUILD", "Projects & experiments", "01"),
