@@ -40,6 +40,8 @@ def avatar_data(data):
         return "data:image/png;base64,"+base64.b64encode(raw).decode()
     except Exception: return ""
 
+FONT_CSS = font_css()
+
 def style(delay=0):
     if STATIC: return ""
     return f"""<style>
@@ -48,8 +50,8 @@ def style(delay=0):
 .card{{animation:rise .75s ease-out {delay}s both}}
 .pulse{{animation:pulse 2.8s ease-in-out infinite}}
 @media(prefers-reduced-motion:reduce){{.card,.pulse{{animation:none!important}}animate,animateTransform{{display:none!important}}}}
-{FONT}
-</style>""".replace("{FONT}", FONT)
+{FONT_CSS}
+</style>"""
 
 def svg(w,h,body,delay=0):
     return f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{w}" height="{h}" viewBox="0 0 {w} {h}">{style(delay)}<rect width="{w}" height="{h}" rx="18" fill="#0a0a0a" stroke="#333"/><g class="card">{body}</g></svg>'
