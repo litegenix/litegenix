@@ -1,100 +1,58 @@
-# Hi, I'm Qadir Bux 👋
+<p align="center">
+  <img src="cards/hero.svg" width="100%" alt="Qadir Bux — Python Developer, Web Developer and Cybersecurity Enthusiast" />
+</p>
 
-Python Developer | Web Developer | Cybersecurity Enthusiast  
-Building secure web applications, automation tools, and AI-based systems.
+<p align="center">
+  <a href="https://litegenix.online"><img src="cards/link-portfolio.svg" width="32.5%" alt="Portfolio" /></a>
+  <a href="https://github.com/litegenix"><img src="cards/link-github.svg" width="32.5%" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/litegenix"><img src="cards/link-linkedin.svg" width="32.5%" alt="LinkedIn" /></a>
+</p>
 
-I focus on clean code, secure design, and scalable software.
+<p align="center">
+  <img src="cards/activity.svg" width="100%" alt="GitHub activity summary" />
+</p>
 
----
+## Featured Projects
 
-## 🚀 What I Do
+<a href="https://github.com/litegenix/WhatsX"><img src="cards/repo-whatsx.svg" width="100%" alt="WhatsX Web Application" /></a>
 
-• Develop secure backend systems using Python  
-• Build responsive and modern web applications  
-• Create automation tools to improve efficiency  
-• Apply cybersecurity principles in development  
-• Work in Linux environments using Git workflows  
+<a href="https://github.com/litegenix/Handwritten-Digit-Recognition"><img src="cards/repo-handwritten-digits.svg" width="100%" alt="Handwritten Digit Recognition System" /></a>
 
----
+<a href="https://github.com/litegenix/Pipeline-Surface-Defect-Detection-System"><img src="cards/repo-pipeline-defects.svg" width="100%" alt="Pipeline Surface Defect Detection" /></a>
 
-## 🧠 Tech Stack
+<a href="https://github.com/litegenix/portfolio"><img src="cards/repo-portfolio.svg" width="100%" alt="Portfolio Website" /></a>
 
-Languages:  
-Python, JavaScript, SQL, HTML, CSS  
+<p align="center">
+  <img src="cards/contributions.svg" width="100%" alt="GitHub contribution graph" />
+</p>
 
-Frameworks & Tools:  
-Flask, Git, GitHub, Linux, REST APIs  
+## About Me
 
-AI & Machine Learning:  
-TensorFlow, OpenCV, NumPy, Scikit-learn  
+I'm a Python and web developer with an interest in cybersecurity, automation, and AI-based systems. I build practical applications and explore secure software development.
 
-Cybersecurity:  
-Secure Coding, Vulnerability Assessment, System Hardening Basics  
+## Tech Stack
 
----
+**Languages:** Python, JavaScript, SQL, HTML, CSS  
+**Frameworks & Tools:** Flask, Git, GitHub, Linux, REST APIs  
+**AI & Machine Learning:** TensorFlow, OpenCV, NumPy, Scikit-learn  
+**Cybersecurity:** Secure coding, vulnerability assessment, and system hardening
 
-## 📌 Featured Projects
+## Certifications
 
-### WhatsX Web Application
-Automated messaging and scheduling web application  
-Tech: Python, Web Development, Automation  
-https://github.com/litegenix
+- Google Cybersecurity Professional Certificate
+- Automate Cybersecurity Tasks with Python
+- Google Prompting Essentials
+- Python Web Development Certification
 
-### Handwritten Digit Recognition System
-Machine learning model using TensorFlow and OpenCV  
-Tech: Python, Machine Learning, Computer Vision  
-https://github.com/litegenix
+## Education
 
-### Pipeline Surface Defect Detection
-AI-based defect detection system  
-Tech: Python, Computer Vision  
-https://github.com/litegenix
+Bachelor's Degree in Information Technology (2024–2028)  
+Shaheed Benazir Bhutto University
 
-### Portfolio Website
-Responsive personal portfolio  
-Tech: HTML, CSS, JavaScript  
-https://litegenix.online
+## Connect
 
----
+- Portfolio: https://litegenix.online
+- LinkedIn: https://linkedin.com/in/litegenix
+- Email: qadirshar66@gmail.com
 
-## 📜 Certifications
-
-• Google Cybersecurity Professional Certificate  
-• Automate Cybersecurity Tasks with Python  
-• Google Prompting Essentials  
-• Python Web Development Certification  
-
----
-
-## 🎓 Education
-
-Bachelor’s Degree in Information Technology (2024–2028)  
-Shaheed Benazir Bhutto University  
-
----
-
-## 📊 GitHub Stats
-
-![Stats](https://github-readme-stats.vercel.app/api?username=litegenix&show_icons=true&theme=dark)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=litegenix&layout=compact&theme=dark)
-
----
-
-## 🎯 Career Focus
-
-• Python Developer Intern  
-• Web Developer Intern  
-• Cybersecurity Intern  
-• Freelance Python & Web Projects  
-
----
-
-## 📫 Connect With Me
-
-LinkedIn: https://linkedin.com/in/litegenix  
-Email: qadirshar66@gmail.com  
-
----
-
-⭐ Always open to collaboration, internships, and freelance opportunities.
+⭐ Open to collaboration, internships, and freelance projects.
