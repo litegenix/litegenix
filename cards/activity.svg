@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="250" viewBox="0 0 1000 250" role="img"><style>
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes glow{0%,100%{opacity:.55}50%{opacity:1}}
+.card{animation:rise .8s ease-out both}
+.accent{animation:glow 3s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.card,.accent{animation:none!important}animate{display:none}}
+text{font-family:Poppins,Arial,sans-serif}
+</style><rect width="1000" height="250" rx="18" fill="#0a0a0a" stroke="#333" /><g class="card" style="animation-delay:0.5s">
+<text x="35" y="43" fill="#fff" font-size="23" font-weight="700">GitHub Activity</text>
+<text x="35" y="70" fill="#8b949e" font-size="13">Contribution summary · refreshed daily by GitHub Actions</text>
+<g transform="translate(36 105)">
+<rect width="218" height="105" rx="12" fill="#101010" stroke="#333"/><text x="18" y="34" fill="#8b949e" font-size="12">CURRENT STREAK</text><text x="18" y="78" fill="#00eeff" font-size="34" font-weight="700">— days</text>
+<rect x="238" width="218" height="105" rx="12" fill="#101010" stroke="#333"/><text x="256" y="34" fill="#8b949e" font-size="12">ACTIVE DAYS</text><text x="256" y="78" fill="#00ff66" font-size="34" font-weight="700">—</text>
+<rect x="476" width="218" height="105" rx="12" fill="#101010" stroke="#333"/><text x="494" y="34" fill="#8b949e" font-size="12">BUSIEST DAY</text><text x="494" y="78" fill="#ff00aa" font-size="25" font-weight="700">Updating</text>
+<rect x="714" width="214" height="105" rx="12" fill="#101010" stroke="#333"/><text x="732" y="34" fill="#8b949e" font-size="12">MONTHLY TOTAL</text><text x="732" y="78" fill="#fff" font-size="34" font-weight="700">—</text>
+</g>
+</g></svg>
