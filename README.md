@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://qadirbux.tech"><img src="cards/link-portfolio.svg" width="32.5%" alt="Portfolio" /></a>
-  <a href="https://github.com/litegenix"><img src="cards/link-github.svg" width="32.5%" alt="GitHub" /></a>
-  <a href="https://linkedin.com/in/litegenix"><img src="cards/link-linkedin.svg" width="32.5%" alt="LinkedIn" /></a>
+  <a href="https://www.qadirbux.tech/projects"><img src="./cards/build.svg" width="32.5%" alt="Build projects" /></a>
+  <a href="https://www.qadirbux.tech/brands"><img src="./cards/brand.svg" width="32.5%" alt="Brands" /></a>
+  <a href="https://www.qadirbux.tech/blog"><img src="./cards/learn.svg" width="32.5%" alt="Learn and blog" /></a>
 </p>
 
 <p align="center">
