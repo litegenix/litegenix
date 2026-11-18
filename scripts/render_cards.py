@@ -271,7 +271,7 @@ def heatmap(bydate,total):
     write("heatmap.svg",svg(W,260,body,["serif","mono"],f"Contribution graph: {total:,} contributions in the last year",bottom=0))
 
 def main():
-    data=load(); bydate,active,streak,busy,busy_count,monthly,total=computed(data)
+    data=load_data(); bydate,active,streak,busy,busy_count,monthly,total=computed(data)
     hero(data)
     heatmap(bydate,total)
     activity(total,active,streak,busy,busy_count,monthly)
