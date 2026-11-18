@@ -56,6 +56,7 @@ def style(delay=0):
 .pulse{{animation:pulse 2.8s ease-in-out infinite}}
 @media(prefers-reduced-motion:reduce){{.card,.pulse{{animation:none!important}}animate,animateTransform{{display:none!important}}}}
 {FONT_CSS}
+text{{font-family:'Instrument Serif',Georgia,serif}}
 </style>"""
 
 def svg(w,h,body,delay=0):
