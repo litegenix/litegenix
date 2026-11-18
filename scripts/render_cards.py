@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate dark, animated profile cards for the litegenix GitHub profile."""
 import base64, calendar, datetime, html, json, os, pathlib, subprocess, urllib.request
+import cairosvg
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CARDS = ROOT / "cards"
@@ -62,6 +63,11 @@ def svg(width, height, body, delay=0):
 
 def save(filename, content):
     (CARDS / filename).write_text(content, encoding="utf-8")
+
+def save_png(filename, content, width=1200):
+    # PNG fallbacks avoid SVG rendering failures in GitHub mobile clients.
+    cairosvg.svg2png(bytestring=content.encode("utf-8"),
+                     write_to=str(CARDS / filename), output_width=width)
 
 def load_data():
     if DATA.exists():
@@ -145,9 +151,11 @@ def main():
     for i, color in enumerate(["#14212B", "#06434D", "#087A89", "#00A9BA", ACCENT]):
         heat += f'<rect x="{70+i*18}" y="227" width="12" height="12" rx="3" fill="{color}"/>'
     heat += f'<text x="166" y="237" fill="{MUTED}" font-size="11">More</text>'
-    save("heatmap.svg", svg(1000, 260, heat, .25))
+    heatmap_svg = svg(1000, 260, heat, .25)
+    save("heatmap.svg", heatmap_svg)
+    save_png("heatmap.png", heatmap_svg)
     # Retain legacy filename so existing external references continue to work.
-    save("contributions.svg", svg(1000, 260, heat, .25))
+    save("contributions.svg", heatmap_svg)
 
     # Activity metrics and monthly bars.
     recent = sorted(monthly.items())[-12:]
@@ -187,10 +195,12 @@ def main():
         save(filename, svg(293, 153, body, .65 + index * .12))
 
     # Section divider and three project cards.
-    save("title-coding-dark.svg", svg(1000, 82,
+    title_svg = svg(1000, 82,
         f'<text x="34" y="50" fill="{ACCENT}" font-size="12" letter-spacing="3">SELECTED WORK</text>'
         f'<text x="250" y="53" fill="{WHITE}" font-size="34">What I&#39;m building</text>'
-        f'<path d="M650 43H965" stroke="#263946"/>', .8))
+        f'<path d="M650 43H965" stroke="#263946"/>', .8)
+    save("title-coding-dark.svg", title_svg)
+    save_png("title-coding.png", title_svg)
     projects = [
         ("repo-whatsx.svg", "WhatsX", "Messaging and scheduling web application", "PYTHON  ·  WEB  ·  AUTOMATION"),
         ("repo-handwritten-digits.svg", "Handwritten Digit Recognition", "Digit classification with TensorFlow and OpenCV", "PYTHON  ·  TENSORFLOW  ·  OPENCV"),
