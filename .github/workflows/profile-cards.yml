@@ -1,6 +1,12 @@
 name: Refresh animated profile cards
 
 on:
+  push:
+    paths:
+      - "scripts/**"
+      - "data/**"
+      - "cards/**"
+      - "README.md"
   schedule:
     - cron: "17 2 * * *"
   workflow_dispatch:
