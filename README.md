@@ -10,7 +10,7 @@
 
 <h2 align="left">What I’m building</h2>
 
-<a href="https://github.com/litegenix/WhatsX"><img src="./cards/repo-whatsx.svg" width="32.5%" alt="WhatsX" /></a><a href="https://github.com/litegenix/Handwritten-Digit-Recognition"><img src="./cards/repo-handwritten-digits.svg" width="32.5%" alt="Handwritten Digit Recognition" /></a><a href="https://github.com/litegenix/Pipeline-Surface-Defect-Detection-System"><img src="./cards/repo-pipeline-defects.svg" width="32.5%" alt="Pipeline Defect Detection" /></a>
+<a href="https://github.com/litegenix/WhatsX"><img src="./cards/repo-whatsx.png" width="32.5%" alt="WhatsX" /></a><a href="https://github.com/litegenix/Handwritten-Digit-Recognition"><img src="./cards/repo-handwritten-digits.png" width="32.5%" alt="Handwritten Digit Recognition" /></a><a href="https://github.com/litegenix/Pipeline-Surface-Defect-Detection-System"><img src="./cards/repo-pipeline-defects.png" width="32.5%" alt="Pipeline Defect Detection" /></a>
 
 </div>
 
