@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="230" viewBox="0 0 1000 230" role="img"><style>
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes glow{0%,100%{opacity:.55}50%{opacity:1}}
+.card{animation:rise .8s ease-out both}
+.accent{animation:glow 3s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.card,.accent{animation:none!important}animate{display:none}}
+text{font-family:Poppins,Arial,sans-serif}
+</style><rect width="1000" height="230" rx="18" fill="#0a0a0a" stroke="#333" /><g class="card" style="animation-delay:0s">
+<defs><linearGradient id="g"><stop stop-color="#00eeff"/><stop offset="1" stop-color="#00aaff"/></linearGradient></defs>
+<rect x="1" y="1" width="998" height="228" rx="18" fill="#000" stroke="#00eeff" stroke-opacity=".5"/>
+<circle class="accent" cx="865" cy="112" r="90" fill="#00eeff" opacity=".08"/><circle cx="865" cy="112" r="64" fill="none" stroke="url(#g)" stroke-width="2" opacity=".5"/>
+<text x="52" y="85" fill="#8b949e" font-size="17" letter-spacing="4">HELLO, I'M</text>
+<text x="50" y="145" fill="#fff" font-size="48" font-weight="700">Qadir Bux</text>
+<text x="53" y="184" fill="#00eeff" font-size="20">Python Developer · Web Developer · Cybersecurity Enthusiast</text>
+<text x="866" y="123" text-anchor="middle" fill="#fff" font-size="38" font-weight="700">QB</text>
+<animate xlink:href="#unused" attributeName="opacity" from="1" to="1" dur="1s" repeatCount="1"/>
+</g></svg>
