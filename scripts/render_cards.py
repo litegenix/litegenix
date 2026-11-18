@@ -186,8 +186,9 @@ def hero(data):
 TILE_W, TILE_H = W/3-8, 210
 def tile(name,label,color,on,num,word,blurb,delay_start,pos):
     lines = wrap(blurb,34)
-    blurb_svg = "".join(f'<text class="r" style="animation-delay:{delay_start+.75+i*.1:.2f}s" x="24" y="{150+i*20}" font-family="Geist,system-ui,sans-serif" font-size="14" fill="{SOFT}">{esc(line)}</text>' for i,line in enumerate(lines))
-    number = f'<text x="22" y="112" class="serif" font-size="47" fill="{on}">{esc(num)} <tspan font-style="italic" font-size="27">{esc(word)}</tspan></text>'
+    blurb_svg = "".join(f'<text class="r" style="animation-delay:{delay_start+.75+i*.1:.2f}s" x="24" y="{173+i*18}" font-family="Geist,system-ui,sans-serif" font-size="13" fill="{SOFT}">{esc(line)}</text>' for i,line in enumerate(lines))
+    number = (f'<text x="22" y="101" class="serif" font-size="43" fill="{on}">{esc(num)}</text>'
+              f'<text x="22" y="137" class="serif" font-size="27" font-style="italic" fill="{on}">{esc(word)}</text>')
     body=f'''
 <defs><clipPath id="tile"><rect width="{TILE_W}" height="{TILE_H}" rx="14"/></clipPath>
 <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
