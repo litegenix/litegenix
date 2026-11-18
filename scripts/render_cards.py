@@ -214,7 +214,9 @@ def main():
                 f'<text x="20" y="94" fill="{MUTED}" font-size="12">{esc(description)}</text>'
                 f'<text x="20" y="133" fill="{color}" font-size="10">{esc(stack)}</text>'
                 f'<text x="20" y="164" fill="{WHITE}" font-size="11">EXPLORE REPOSITORY  ↗</text>')
-        save(filename, svg(320, 188, body, 1.0 + index * .12))
+        project_svg = svg(320, 188, body, 1.0 + index * .12)
+        save(filename, project_svg)
+        save_png(filename.replace(".svg", ".png"), project_svg, width=640)
 
     print("Rendered dark animated profile cards:", CARDS)
 
