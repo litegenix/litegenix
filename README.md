@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://litegenix.online"><img src="cards/link-portfolio.svg" width="32.5%" alt="Portfolio" /></a>
+  <a href="https://qadirbux.tech"><img src="cards/link-portfolio.svg" width="32.5%" alt="Portfolio" /></a>
   <a href="https://github.com/litegenix"><img src="cards/link-github.svg" width="32.5%" alt="GitHub" /></a>
   <a href="https://linkedin.com/in/litegenix"><img src="cards/link-linkedin.svg" width="32.5%" alt="LinkedIn" /></a>
 </p>
@@ -46,13 +46,13 @@ I'm a Python and web developer with an interest in cybersecurity, automation, an
 
 ## Education
 
-Bachelor's Degree in Information Technology (2024–2028)  
+Bachelor's Degree in Information Technology (2024–2027)  
 Shaheed Benazir Bhutto University
 
 ## Connect
 
-- Portfolio: https://litegenix.online
+- Portfolio: https://qadirbux.tech
 - LinkedIn: https://linkedin.com/in/litegenix
-- Email: qadirshar66@gmail.com
+- Email: owner@qadirbux.tech
 
 ⭐ Open to collaboration, internships, and freelance projects.
