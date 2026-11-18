@@ -220,6 +220,17 @@ def main():
         save(filename, project_svg)
         save_png(filename.replace(".svg", ".png"), project_svg, width=640)
 
+    # Local PNG social icons: avoid external SVG/CDN image failures in GitHub mobile.
+    icon_svgs = {
+        "icon-portfolio.png": f'<circle cx="32" cy="32" r="25" fill="none" stroke="{ACCENT}" stroke-width="4"/><ellipse cx="32" cy="32" rx="11" ry="25" fill="none" stroke="{ACCENT}" stroke-width="3"/><path d="M8 32h48M13 20h38M13 44h38" stroke="{ACCENT}" stroke-width="3" fill="none"/>',
+        "icon-linkedin.png": '<rect x="5" y="5" width="54" height="54" rx="8" fill="#0A66C2"/><text x="32" y="44" text-anchor="middle" font-family="Arial,sans-serif" font-size="36" font-weight="bold" fill="#FFFFFF">in</text>',
+        "icon-github.png": '<path fill="#F4FAFF" d="M32 5C17 5 5 17 5 32c0 12 8 22 19 25 1 0 2-1 2-2v-5c-8 2-10-3-10-3-1-3-3-4-3-4-2-1 0-1 0-1 3 0 4 3 4 3 2 3 5 2 7 1 0-2 1-3 2-4-7-1-13-4-13-13 0-3 1-6 3-8 0-1-1-4 1-8 0 0 3-1 9 3 5-1 10-1 15 0 6-4 9-3 9-3 2 4 1 7 1 8 2 2 3 5 3 8 0 9-6 12-13 13 2 2 2 4 2 7v6c0 1 1 2 2 2 11-3 19-13 19-25C59 17 47 5 32 5z"/>',
+        "icon-email.png": f'<rect x="5" y="11" width="54" height="42" rx="6" fill="none" stroke="{ACCENT}" stroke-width="4"/><path d="M8 16l24 19 24-19" fill="none" stroke="{ACCENT}" stroke-width="4" stroke-linejoin="round"/>'
+    }
+    for filename, drawing in icon_svgs.items():
+        icon_svg = f'<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">{drawing}</svg>'
+        save_png(filename, icon_svg, width=128)
+
     print("Rendered dark animated profile cards:", CARDS)
 
 if __name__ == "__main__":
