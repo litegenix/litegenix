@@ -7,8 +7,9 @@ CARDS = ROOT / "cards"
 DATA = ROOT / "data" / "contributions.json"
 STATIC = os.getenv("STATIC", "0") == "1"
 ACCENT = "#00eeff"
-FONT_URL = "https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins%5Bwght%5D.ttf"
-CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 .,·|—-:/@+()'"
+FONT_URL = "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf"
+FONT_FILE = ROOT / "fonts" / "serif-400.woff"
+CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 .,·|—-:/@+()'!?&"
 
 def esc(s): return html.escape(str(s), quote=True)
 def fetch(url):
@@ -17,16 +18,20 @@ def fetch(url):
 
 def font_css():
     try:
-        raw = fetch(FONT_URL)
-        src = ROOT / "Poppins.ttf"; src.write_bytes(raw)
-        out = ROOT / "cards" / "poppins-subset.woff"
-        subprocess.run(["pyftsubset", str(src), "--output-file="+str(out), "--flavor=woff",
-                        "--text="+CHARS, "--layout-features=*"], check=True, capture_output=True)
-        b64 = base64.b64encode(out.read_bytes()).decode()
-        src.unlink(missing_ok=True); out.unlink(missing_ok=True)
-        return "@font-face{font-family:Poppins;src:url(data:font/woff;base64,"+b64+") format('woff');font-weight:100 900}"
-    except Exception:
-        return "text{font-family:Arial,sans-serif}"
+        FONT_FILE.parent.mkdir(parents=True, exist_ok=True)
+        if not FONT_FILE.exists():
+            source = ROOT / "fonts" / "InstrumentSerif-Regular.ttf"
+            source.write_bytes(fetch(FONT_URL))
+            subprocess.run([
+                "pyftsubset", str(source), "--output-file=" + str(FONT_FILE),
+                "--flavor=woff", "--text=" + CHARS, "--layout-features=*"
+            ], check=True, capture_output=True)
+            source.unlink(missing_ok=True)
+        b64 = base64.b64encode(open(FONT_FILE, "rb").read()).decode()
+        return f"@font-face{{font-family:'Instrument Serif';src:url(data:font/woff;base64,{b64}) format('woff');font-weight:400}}"
+    except Exception as exc:
+        print(f"Instrument Serif embedding failed; using serif fallback: {exc}")
+        return "text{font-family:Georgia,serif}"
 
 def load():
     if DATA.exists(): return json.loads(DATA.read_text(encoding="utf-8"))
